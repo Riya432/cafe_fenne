@@ -103,9 +103,9 @@ const Header = () => {
           <button onClick={() => setIsSearchModal(true)}>
             <FaSearch className="hover:text-primary transition-all cursor-pointer" />
           </button>
-          <a href="#" className="md:inline-block hidden sm">
+          {/* <a href="#" className="md:inline-block hidden sm">
             <button className="btn-primary">Order Online</button>
-          </a>
+          </a> */}
           <button
             className="sm:hidden inline-block"
             onClick={() => setIsMenuModal(true)}
